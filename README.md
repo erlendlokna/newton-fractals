@@ -1,0 +1,8 @@
+# newton-fractals
+Using newton iteration to find a solution to a complex equating f(z) with known soultions. In order to create the image i first setup a 2D grid corresponding the 1D exptension of the real line.
+For each grid value i use this value as the starting point in a the newton scheme. Then i color a pixel in the image based on what solution it converged to.
+
+For example, for this equation there are three solutions, which i three distinct colors to (see colors in the image below). We see that different coordinates converge to different
+solutions and we get the fractal shape.
+
+![](https://github.com/erlendlokna/newton-fractals/blob/main/figs/test_highquality-1.png)
