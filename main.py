@@ -2,7 +2,6 @@ from complexImage import *
 from newton import *
 
 def main():
-    #This may take some runtime im afraid.
     
     f = lambda z: z*z*z - 1
     df = lambda z: 3*z*z
